@@ -1,25 +1,6 @@
+!To render changes do---------------
 !xrdb ~/.Xresources
 !xrdb -merge ~/.Xresources
-
-
-
-
-
-! urxvt
-!URxvt*background:    [92]#5CA2DA
-!URxvt*depth:                32
-!URXVT*FOREGround:            [100]#FF0920
-!URxvt*borderless: 1
-!URxvt.font:     xft:bitstream vera sans mono:size=16:antialias=true
-!URxvt.boldFont: xft:bitstream vera sans mono:bold:size=16:antialias=true
-!URxvt*scrollBar:            false
-!URxvt*saveLines:  5000
-!URxvt*termName:    rxvt-unicode
-!URxvt.perl-ext-common: default,matcher
-!URxvt.urlLauncher: firefox
-!URxvt.matcher.button: 1
-!
-!!*background: rgba(0, 0, 0, .7)
 
 !! black
 *color0: #1b1918
@@ -54,22 +35,6 @@ URxvt.font: 		xft:monospace:size=11
 URxvt.letterSpace:      -1
 URxvt.scrollBar:	false
 URxvt.cursorColor:	#c5c8c6
-
-!! Extensions
-URxvt.perl-ext-common:	default,matcher,resize-font,url-select,keyboard-select
-URxvt.colorUL:		#4682B4
-!! url-select
-URxvt.keysym.M-u:	perl:url-select:select_next
-URxvt.url-select.launcher: webview
-URxvt.url-select.underline: true
-!! keyboard-select:
-URxvt.keysym.M-Escape: perl:keyboard-select:activate
-!! resize-font
-URxvt.resize-font.smaller:	C-Down
-URxvt.resize-font.bigger:	C-Up
-!! Matcher
-URxvt.url-launcher:	webview
-URxvt.matcher.button:	1
 
 rofi.color-enabled:	true
 rofi.color-window:	#000, #000, #000
