@@ -32,7 +32,7 @@ URxvt.background:       #3d3e44
 URxvt.foreground:       #e88858
 URxvt.depth:		32
 URxvt.font: 		xft:cherry-r:size=10
-URxvt.letterSpace:      -1
+URxvt.letterSpace:      0.7
 URxvt.scrollBar:	false
 URxvt.cursorColor:	#c5c8c6
 
